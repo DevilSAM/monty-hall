@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<link href="https://fonts.googleapis.com/css?family=Coiny|Righteous|Monoton|Audiowide|Carter+One" rel="stylesheet">
+<link href="css/montyHall.css" rel="stylesheet">
+
+<body>
+	<header>
+		<h1>Monty-Hall's Paradox</h1>
+	</header>
+	
+	<div id="refToWiki">
+		(You can read about Monty-Hall's paradox on <a href="https://en.wikipedia.org/wiki/Monty_Hall_problem" target="_blank">Wikipedia</a>)
+  </div>
+	
+	<table  align="center" cellspacing=0 border="2" cellpadding = "5px">
+	  <tr>
+	    <th colspan="4">Results</th>
+	  </tr>
+	  <tr>
+	    <td>NOT changed choise</td>
+	    <td id="notchWin">WIN: 0</td>
+	    <td id="notchLose">LOSE: 0</td>
+	    <td id="notchPercent">Win chance = 0%</td>
+	  </tr>
+	  <tr>
+	    <td>CHANGED choise</td>
+	    <td id="chWin">WIN: 0</td>
+	    <td id="chLose">LOSE: 0</td>
+	    <td id="chPercent">Win chance = 0%</td>
+	  </tr>
+	</table>
+	
+	<div id="task">
+	  There is a prize behind a door! Chose one!
+	</div>
+	
+	<div class="doors">
+	  <div class="door" id="d1">
+	    <div class="front" id="f1">$0</div>
+	    <div class="back" id="b1">1</div>
+	  </div>
+	  <div class="door" id="d2">
+	    <div class="front" id="f2">$0</div>
+	    <div class="back" id="b2">2</div>
+	  </div>
+	  <div class="door" id="d3">
+	    <div class="front" id="f3">$0</div>
+	    <div class="back" id="b3">3</div>
+	  </div>
+	</div>
+	
+	<div id="change" class="hide">Do you want to change your choise?</div>
+	
+	<div id="changeButtons" class="hide">
+	  <button id="noBtn">No</button>
+	  <button id="yesBtn">YES!</button>
+	</div>
+	
+	<footer id='copyright'>
+		  The page was created by <a id='myaccount' href='https://www.facebook.com/devilsam84' target='blank_'> DevilSAM. </a> Copyright, 2019.
+	</footer>
+	
+	<script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/montyHall.js"></script>
+	
+	
+	
+</body>
+
+	
