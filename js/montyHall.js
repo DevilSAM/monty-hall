@@ -63,17 +63,6 @@ function changeOrNotYourChoise(resultsChange, flag, chW, chL, chP) {
 ///////////////////////////////////////////////////////////////////////////////////////
 
 
-$(function() {
-	
-	// сразу прячем нижние кнопки
-	//$("#changeButtons").toggleClass("hide");
-	// и устанавливаем высоту для body
-	//let screenHeight = $(window).innerHeight();
-	//$("body").css("height", screenHeight);
-	  
-});
-
-
 
 // используем объекты, чтобы работать с функцией changeOrNotYourChoise
 var resultsChange = {win : 0, lose : 0, chance : 0, total : 0};
